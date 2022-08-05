@@ -7,7 +7,7 @@ metadata:
     - gui
     - tanzu-application-platform
   annotations:
-    'backstage.io/kubernetes-namespace': tap-gui
+    'backstage.io/kubernetes-label-selector': 'app=backstage'
 spec:
   type: website
   lifecycle: production
