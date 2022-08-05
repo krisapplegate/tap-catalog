@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: tanzu-application-platform
+  description: The Tanzu Application Platform
+spec:
+  targets:
+    - ./groups/team.yml
+    - ./domains/domain.yml
+    - ./systems/system.yml
+

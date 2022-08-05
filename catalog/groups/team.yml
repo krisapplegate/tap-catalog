@@ -1,0 +1,11 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: alex-barbato
+spec:
+  profile:
+    displayName: Alex Barbato
+    email: abarbato@vmware.com
+    picture: https://tanzu.vmware.com/developer/team/alex-barbato/images/alex-barbato.jpg
+  memberOf: [tanzuplatform]
