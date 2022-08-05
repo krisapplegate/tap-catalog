@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: tap-gui
+  description: The GUI for the Tanzu Application Platform
+  tags:
+    - gui
+    - tanzu-application-platform
+  annotations:
+    'backstage.io/kubernetes-namespace': tap-gui
+spec:
+  type: website
+  lifecycle: production
+  owner: tanzuplatform
+  system: tanzu-application-platform

@@ -8,4 +8,5 @@ spec:
     - ./groups/team.yml
     - ./domains/domain.yml
     - ./systems/system.yml
+    - ./components/tap-gui.yml
 
