@@ -9,4 +9,7 @@ spec:
     - ./domains/domain.yml
     - ./systems/system.yml
     - ./components/tap-gui.yml
+    - ./components/contour.yml
+    - ./components/kapp-controller.yml
+    - ./components/appsso.yml
 
