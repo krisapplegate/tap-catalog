@@ -2,10 +2,21 @@
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: alex-barbato
+  name: abarbato
 spec:
   profile:
     displayName: Alex Barbato
     email: abarbato@vmware.com
     picture: https://tanzu.vmware.com/developer/team/alex-barbato/images/alex-barbato.jpg
+  memberOf: [tanzuplatform]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: rvanvoorhees
+spec:
+  profile:
+    displayName: Robert Van Voorhees
+    email: rvanvoorhees@vmware.com
+    picture: https://pbs.twimg.com/profile_images/1047491152440692736/5zBnQSO4_400x400.jpg
   memberOf: [tanzuplatform]
