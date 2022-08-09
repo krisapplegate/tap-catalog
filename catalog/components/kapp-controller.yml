@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: kapp-controller
+  description: The GitOps reconciler for the clusters
+  tags:
+    - kapp-controller
+    - git-ops
+    - tanzu-application-platform
+  annotations:
+    'backstage.io/kubernetes-namespace': 'kapp-controller'
+spec:
+  type: service
+  lifecycle: production
+  owner: tanzuplatform
+  system: tanzu-application-platform

@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: appsso
+  description: The operator for creating and managing Application SSO components
+  tags:
+    - appsso
+    - auth
+    - tanzu-application-platform
+  annotations:
+    'backstage.io/kubernetes-namespace': 'appsso'
+spec:
+  type: service
+  lifecycle: production
+  owner: tanzuplatform
+  system: tanzu-application-platform
