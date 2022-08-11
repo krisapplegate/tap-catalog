@@ -15,4 +15,4 @@ spec:
   owner: tanzuplatform
   system: tanzu-application-platform
   dependsOn:
-    - tap-gui
+    - Component:tap-gui
