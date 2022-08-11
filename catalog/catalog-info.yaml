@@ -12,5 +12,6 @@ spec:
     - ./components/app-live-view.yml
     - ./components/contour.yml
     - ./components/kapp-controller.yml
+    - ./components/metadata-store.yml
     - ./components/tap-gui.yml
 
