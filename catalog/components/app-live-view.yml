@@ -8,7 +8,7 @@ metadata:
     - metrics
     - tanzu-application-platform
   annotations:
-    'backstage.io/kubernetes-label-selector': 'app in (application-live-view, application-live-view-connector)'
+    'backstage.io/kubernetes-label-selector': 'app in (application-live-view-server, application-live-view-connector)'
 spec:
   type: service
   lifecycle: production
