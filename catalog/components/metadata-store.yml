@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: metadata-store
+  description: The central data store and interface for querying SBOM / vulnerability related metadata on workloads
+  tags:
+    - metadata-store
+    - vulnerability
+    - SBOM
+    - tanzu-application-platform
+  annotations:
+    'backstage.io/kubernetes-label-selector': 'app in (metadata-store-app, metadata-store-db)'
+spec:
+  type: service
+  lifecycle: production
+  owner: tanzuplatform
+  system: tanzu-application-platform

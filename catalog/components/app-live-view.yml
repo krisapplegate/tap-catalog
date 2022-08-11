@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: app-live-view
-  description: The operator for creating and managing Application Live View connections to the ./components/tap-gui.yml
+  description: The operator for creating and managing Application Live View connections to the TAP-GUI
   tags:
     - app-live-view
     - metrics
