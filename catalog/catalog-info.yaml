@@ -9,6 +9,7 @@ spec:
     - ./domains/domain.yml
     - ./systems/system.yml
     - ./components/appsso.yml
+    - ./components/accelerators.yml
     - ./components/app-live-view.yml
     - ./components/contour.yml
     - ./components/kapp-controller.yml
