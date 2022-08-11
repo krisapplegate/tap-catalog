@@ -8,8 +8,9 @@ spec:
     - ./groups/team.yml
     - ./domains/domain.yml
     - ./systems/system.yml
-    - ./components/tap-gui.yml
+    - ./components/appsso.yml
+    - ./components/app-live-view.yml
     - ./components/contour.yml
     - ./components/kapp-controller.yml
-    - ./components/appsso.yml
+    - ./components/tap-gui.yml
 

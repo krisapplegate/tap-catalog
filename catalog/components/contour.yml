@@ -10,6 +10,7 @@ metadata:
     - tanzu-application-platform
   annotations:
     'backstage.io/kubernetes-namespace': 'projectcontour'
+    'backstage.io/kubernetes-label-selector': 'app in (envoy, contour)'
 spec:
   type: service
   lifecycle: production

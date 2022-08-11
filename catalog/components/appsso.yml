@@ -9,6 +9,7 @@ metadata:
     - tanzu-application-platform
   annotations:
     'backstage.io/kubernetes-namespace': 'appsso'
+    'backstage.io/kubernetes-label-selector': 'name=operator'
 spec:
   type: service
   lifecycle: production

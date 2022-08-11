@@ -9,6 +9,7 @@ metadata:
     - tanzu-application-platform
   annotations:
     'backstage.io/kubernetes-namespace': 'kapp-controller'
+    'backstage.io/kubernetes-label-selector': 'app=kapp-controller'
 spec:
   type: service
   lifecycle: production
