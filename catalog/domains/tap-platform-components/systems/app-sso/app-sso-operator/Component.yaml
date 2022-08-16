@@ -10,6 +10,6 @@ metadata:
   - v1alpha1
 spec:
   lifecycle: production
-  owner: platform-team
+  owner: tanzuplatform
   system: app-sso
   type: service

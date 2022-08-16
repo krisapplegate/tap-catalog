@@ -5,16 +5,7 @@ metadata:
   description: A Base TAP GUI Catalog
 spec:
   targets:
-    - ./orgs/default.yaml
     - ./orgs/users.yaml
-    - ./orgs/dev.yaml
-    - ./orgs/platform.yaml
-    - ./domains/cloud-apps/domain.yaml
-    - ./domains/cloud-apps/systems/yelb/system.yaml
-    - ./domains/cloud-apps/systems/yelb/components/redis-server/component.yaml
-    - ./domains/cloud-apps/systems/yelb/components/yelb-appserver/component.yaml
-    - ./domains/cloud-apps/systems/yelb/components/yelb-db/component.yaml
-    - ./domains/cloud-apps/systems/yelb/components/yelb-ui/component.yaml
     - ./domains/tap-platform-components/Domain.yaml
     - ./domains/tap-platform-components/systems/metadata-store/System.yaml
     - ./domains/tap-platform-components/systems/metadata-store/metadata-store-app/Component.yaml

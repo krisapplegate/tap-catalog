@@ -6,5 +6,5 @@ metadata:
   annotations:
     'backstage.io/techdocs-ref': dir:.
 spec:
-  domain: tap
-  owner: platform-team
+  domain: tanzu-application-platform
+  owner: tanzuplatform

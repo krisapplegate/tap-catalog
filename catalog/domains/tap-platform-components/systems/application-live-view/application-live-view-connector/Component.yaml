@@ -9,6 +9,6 @@ metadata:
   - v1alpha1
 spec:
   lifecycle: production
-  owner: platform-team
+  owner: tanzuplatform
   system: application-live-view
   type: service
